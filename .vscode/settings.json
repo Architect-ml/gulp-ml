@@ -1,0 +1,41 @@
+{
+  "files.defaultLanguage": "html",
+  "html.format.wrapLineLength": 0,
+  "html.format.extraLiners": "none",
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "editor.folding": false,
+  "editor.linkedEditing": true,
+  "editor.insertSpaces": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.formatOnSave": true,
+  "editor.hover.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.enablePreview": false,
+  "security.workspace.trust.enabled": false,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.fontSize": 12,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.theme": "specific",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "emmet.preferences": {
+    "output.reverseAttributes": true
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": 1
+    }
+  },
+  "path-autocomplete.pathMappings": {
+    "@img": "${folder}/src/images",
+    "@scss": "${folder}/src/scss",
+    "@js": "{$folder}/src/js",
+  },
+}
