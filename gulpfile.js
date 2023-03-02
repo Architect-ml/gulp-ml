@@ -23,7 +23,7 @@ import { html } from './gulp/tasks/html.js';
 import { scss } from './gulp/tasks/scss.js';
 import { js } from './gulp/tasks/js.js';
 import { images } from './gulp/tasks/images.js';
-import { otfToTtf, ttfToWoff } from './gulp/tasks/fonts.js';
+import { otfToTtf, ttfToWoff, resetFonts } from './gulp/tasks/fonts.js';
 import { server } from './gulp/tasks/server.js';
 import { zip } from './gulp/tasks/zip.js';
 
@@ -37,7 +37,7 @@ export const watcher = () => {
 }
 
 // Font tasks
-const fonts = gulp.series(otfToTtf, ttfToWoff);
+const fonts = gulp.series(otfToTtf, ttfToWoff, resetFonts);
 
 // Main tasks
 const mainTasks = gulp.series(fonts, gulp.parallel(copy, html, scss, js, images));
