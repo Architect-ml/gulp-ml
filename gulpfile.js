@@ -1,4 +1,4 @@
-// Main module 'Gulp' 
+// Main module 'Gulp'
 import gulp from 'gulp';
 
 // Import paths
@@ -44,7 +44,7 @@ const mainTasks = gulp.series(fonts, gulp.parallel(copy, html, scss, js, images)
 
 // Task Execution Scenarios
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
-const build = gulp.series(reset, mainTasks)
+const build = gulp.series(reset, mainTasks);
 const deployZIP = gulp.series(reset, mainTasks, zip);
 
 // Exports Scenarios

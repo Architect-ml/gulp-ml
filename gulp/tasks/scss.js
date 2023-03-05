@@ -11,7 +11,6 @@ export const scss = () => {
     .pipe(app.plugins.replace(/@img\//g, '../images/'))
     .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
     .pipe(autoprefixer({
-      grid: true,
       overrideBrowserslist: ['last 3 versions'],
       cascade: true
     }))
