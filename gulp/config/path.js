@@ -20,7 +20,8 @@ export const path = {
     scss: `${srcFolder}/scss/style.scss`,
     js: `${srcFolder}/js/app.js`,
     images: `${srcFolder}/images/**/*.{jpg,jpeg,png,gif,webp}`,
-    svg: `${srcFolder}/images/**/*.svg`,
+    svg: `[${srcFolder}/images/**/*.svg, !${srcFolder}/images/svgsprites/*.svg]`,
+    svgsprites: `${srcFolder}/images/svgsprites/*.svg`,
     fonts: `${srcFolder}/fonts/`,
     files: `${srcFolder}/files/**/*.*`,
   },
@@ -30,6 +31,7 @@ export const path = {
     scss: `${srcFolder}/scss/**/*.scss`,
     js: `${srcFolder}/js/**/*.js`,
     images: `${srcFolder}/images/**/*.{jpg,jpeg,png,gif,webp,svg,ico}`,
+    svgsprites: `${srcFolder}/images/svgsprites/*.svg`,
     files: `${srcFolder}/files/**/*.*`,
   },
 

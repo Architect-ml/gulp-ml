@@ -25,6 +25,7 @@
     "gulp-newer": "latest",
     "gulp-replace": "latest",
     "gulp-sass": "latest",
+    "gulp-svg-sprite": "latest",
     "gulp-ttf2woff2": "latest",
     "gulp-webp": "latest",
     "gulp-zip": "latest",
