@@ -33,9 +33,5 @@
       "inline_break": 1
     }
   },
-  "path-autocomplete.pathMappings": {
-    "@img": "${folder}/src/images",
-    "@scss": "${folder}/src/scss",
-    "@js": "{$folder}/src/js",
-  },
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe --remote-debugging-port=9222",
 }

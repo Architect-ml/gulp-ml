@@ -1,6 +1,6 @@
 {
   "name": "g-project",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "gulpfile.js",
   "type": "module",
@@ -23,7 +23,6 @@
     "gulp-if": "latest",
     "gulp-imagemin": "latest",
     "gulp-newer": "latest",
-    "gulp-replace": "latest",
     "gulp-sass": "latest",
     "gulp-svg-sprite": "latest",
     "gulp-ttf2woff2": "latest",
