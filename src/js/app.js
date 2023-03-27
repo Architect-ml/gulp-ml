@@ -1,1 +1,2 @@
-import * as flsFunctions from './modules/functions.js';
+// import './modules/functions.js';
+// import './modules/smooth-scroll.js';

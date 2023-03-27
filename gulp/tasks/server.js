@@ -5,4 +5,4 @@ export const server = (done) => {
     port: 3000,
     browser: '/mnt/c/Program Files/Google/Chrome/Application/chrome.exe',
   })
-}
+};

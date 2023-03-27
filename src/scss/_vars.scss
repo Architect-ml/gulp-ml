@@ -3,13 +3,20 @@ $content-width: 1170px;
 $container-offset: 15px;
 $container-width: calc($content-width + ($container-offset * 2));
 
-// Colors 'lt - light' 'ltr - lighter' 'ltst - lightest'
-$color-accent: lightblue;
-$color-base: lightcoral;
-$color-primary: lightpink;
-$color-secondary: lightsalmon;
-$color-tertiary: lightseagreen;
+// Main colors
+$color-accent: #cccccc;
+$color-primary: #cccccc;
+$color-secondary: #cccccc;
+$color-tertiary: #cccccc;
 $color-neutral-lt: #ffffff;
 $color-neutral-dk: #000000;
 
+// Pseudo-classes colors
+$color-placeholder: rgba($color-tertiary, 0.9);
+$color-pseudo-accent: #cccccc;
+
 // Fonts
+$font-family: 'Roboto', sans-serif;
+
+// Transition
+$transition-time: 0.3s;
